@@ -1,0 +1,49 @@
+body{
+    background-image: url("http://www.wildtextures.com/wp-content/uploads/2011/11/wildtextures-dark-wood-board.jpg");
+    background-size: 100%;
+}
+
+table{
+    text-align: center;
+    font-size: 125%;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 25%;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+
+}
+th, td{
+    vertical-align: middle !important;
+    background-color:#68caf2;
+    border-color: black !important;
+
+}
+#display{
+  font-size: 200%
+}
+td {
+    color : white;
+    height: 80px;
+    font-weight: normal;
+    font-size: 125%;
+    border-color: black !important ;
+}
+
+#display{
+    text-align:right;
+    padding-top:10%;
+}
+
+/*td:after {*/
+    /*content: '';*/
+    /*display: block;*/
+    /*margin-top: 60%;*/
+/*}*/
+
+.table-bordered{
+    border-color: white;
+    border-width: 4px !important;
+    box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.56);
+}
